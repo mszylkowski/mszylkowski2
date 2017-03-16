@@ -10,6 +10,7 @@
         
         <link rel="stylesheet" href="bootstrap-lumen.min.css">
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="/maps/documentation/javascript/demos/demos.css">
         <script src="https://use.fontawesome.com/49f6bff5e7.js"></script>
         <script src="jquery.min.js"></script>
         <script src="bootstrap.js"></script>
@@ -127,7 +128,20 @@
                     <h1>Contact information</h1>
                     <p><a href="mailto:mszylkowski@hotmail.com">mszylkowski@hotmail.com</a></p>
                     <p><a href="callto:6784673350">(678) 467 - 3350</a></p>
-                    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><div><small><a href="http://embedgooglemaps.com">embed google maps</a></small></div><div><small><a href="http://phplinkdir.com/">phplinkdir.com</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:6,center:new google.maps.LatLng(33.76731632058313,-84.38641409626463),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(33.76731632058313,-84.38641409626463)});infowindow = new google.maps.InfoWindow({content:'<strong>Georgia Institute of Technology</strong><br>630 Williams St Nw, Atlanta<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+                    <div id="map"></div>
+                    <script>
+                      function initMap() {
+                        // Create a map object and specify the DOM element for display.
+                        var map = new google.maps.Map(document.getElementById('map'), {
+                          center: {lat: -34.397, lng: 150.644},
+                          scrollwheel: false,
+                          zoom: 8
+                        });
+                      }
+
+                    </script>
+                    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAl9oz_DgNgaohamHtOz1gOHDnZySUv8-I&callback=initMap"
+                    async defer></script>
                 </div>
             </div>
         </div>
