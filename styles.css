@@ -3,8 +3,7 @@ html {
 }
 
 .container-content {
-    background-color: #ffffff;
-    border-radius: 5px;
+    /*All the jumbotron content*/
 }
 
 .jumbotron {
@@ -21,17 +20,21 @@ html {
 }
 
 .jumbotron-home {
-    background-image: url("https://cdn2.tnwcdn.com/wp-content/blogs.dir/1/files/2015/11/flatdesign.jpg");
+    /*background-image: url("https://cdn2.tnwcdn.com/wp-content/blogs.dir/1/files/2015/11/flatdesign.jpg");*/
+    background-color: lightskyblue;
 }
 
 .jumbotron-bio {
-    background-image: url("https://edlibre.com/new/wp-content/uploads/2015/11/flat-design-office-desk-o.jpg");
+    /*background-image: url("https://edlibre.com/new/wp-content/uploads/2015/11/flat-design-office-desk-o.jpg");*/
+    background-color: lightpink
 }
 
 .jumbotron-resume {
-    background-image: url("http://netdna.webdesignerdepot.com/uploads/2013/08/featured12.jpg");
+    /*background-image: url("http://netdna.webdesignerdepot.com/uploads/2013/08/featured12.jpg");*/
+    background-color: greenyellow;
 }
 
 .jumbotron-contact {
-    background-image: url("https://think360studio.com/wp-content/uploads/2016/03/flat-design.jpg");
+    /*background-image: url("https://think360studio.com/wp-content/uploads/2016/03/flat-design.jpg");*/
+    background-color: lightsalmon;
 }
