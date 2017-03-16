@@ -1,0 +1,37 @@
+html {
+    background-color: grey;
+}
+
+.container-content {
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.jumbotron {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0px;
+    background-blend-mode: multiply;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.jumbotron-home {
+    background-image: url("https://cdn2.tnwcdn.com/wp-content/blogs.dir/1/files/2015/11/flatdesign.jpg");
+}
+
+.jumbotron-bio {
+    background-image: url("https://edlibre.com/new/wp-content/uploads/2015/11/flat-design-office-desk-o.jpg");
+}
+
+.jumbotron-resume {
+    background-image: url("http://netdna.webdesignerdepot.com/uploads/2013/08/featured12.jpg");
+}
+
+.jumbotron-contact {
+    background-image: url("https://think360studio.com/wp-content/uploads/2016/03/flat-design.jpg");
+}
