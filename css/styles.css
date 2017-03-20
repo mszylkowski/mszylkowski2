@@ -43,6 +43,45 @@ body {
     background-blend-mode: multiply;
 }
 
+.jumbotron-projects {
+    background-image: url("../wood-light.jpg");
+    background-blend-mode: multiply;
+    background-repeat: repeat;
+    min-height: 50vh;
+}
+
+.phone-top {
+    background-image: url("../phone-top.png");
+    width: 70vw;
+    height: 5vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.phone-middle {
+    background-image: url("../phone-middle.png");
+    width: 70vw;
+    background-size: contain;
+    min-height: 20vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.phone-app {
+    width: 12vw;
+    height: 12vw%;
+}
+
+.phone-bottom {
+    background-image: url("../phone-bottom.png");
+    width: 70vw;
+    height: 5vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
 .jumbotron-bio {
     background-image: url("http://www.webdesigndev.com/wp-content/uploads/2016/05/5-Seamless-Icon-Patterns.jpg");
     background-repeat: repeat;

@@ -5,19 +5,14 @@
         <meta name="description" content="Matias Szylkowski personal website">
         <meta name="keywords" content="Android, developer, Linux, Game developer, Unity, Inkscape,"/>
         <meta name="robots" content="index, follow"/>
-        <script src="code.js"></script>
-        <link rel="stylesheet" href="styles.css"/>
         <link rel="icon" href="icon.png">
         
         <link rel="stylesheet" href="css/bootstrap-lumen.min.css">
         <link rel="stylesheet" href="css/styles.css">
-        <link rel="json" href="mapstyle.json">
         <script src="https://use.fontawesome.com/49f6bff5e7.js"></script>
-        <script language="JavaScript" src="js/gen_validatorv31.js" type="text/javascript"></script>
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.js"></script>
         <script src="js/code.js"></script>
-        <script src="js/mapload.js"></script>
         <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
         
         <title>Matias Szylkowski</title>
@@ -72,6 +67,49 @@
                     <p data-aos="fade-left" data-aos-anchor-placement="top-bottom">In this webpage you will find sample work and contact information. To see the latest projects I have been working on, go to the Projects section. To learn more about me, visit the Bio section. For any questions, don’t hesitate to contact me.</p>
                 </div>
             </div>
+            <div class="jumbotron jumbotron-projects" id="projects">
+                <div class="container-content">
+                    <div class="phone">
+                        <div class="phone-top">
+                        
+                        </div>
+                        <div class="phone-middle">
+                            <div class="row">
+                                <h1>Projects</h1>
+                            </div>
+                            <ul class="nav nav-pills nav-justified">
+                                <li><a data-toggle="tab" href="#twentyfour">TwentyFour</a></li>
+                                <li><a data-toggle="tab" href="#youwillcrash">You Will Crash</a></li>
+                                <li><a data-toggle="tab" href="#robottest">Robot Test</a></li>
+                                <li><a data-toggle="tab" href="#bumpercars">Bumper Cars AI</a></li>
+                                <li><a data-toggle="tab" href="#superflight">SuperFlight VR</a></li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane fade active show"></div>
+                                <div class="tab-pane" id="twentyfour">
+                                    TwentyFour pane
+                                </div>
+                                <div class="tab-pane fade" id="youwillcrash">
+                                 You Will Crash pane
+                                </div>
+                                <div class="tab-pane fade" id="robottest">
+                                    Robot Test pane
+                                </div>
+                                <div class="tab-pane fade" id="bumpercars">
+                                    Bumper Cars AI pane
+                                </div>
+                                <div class="tab-pane fade" id="superflight">
+                                    SuperFlight VR pane
+                                </div>
+                            
+                            </div>
+                        </div>
+                        <div class="phone-bottom">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="jumbotron jumbotron-bio" id="bio">
                 <div class="container container-content">
                     <h1 data-aos="fade-left" data-aos-anchor-placement="top-bottom">This is my biography</h1>
@@ -105,10 +143,10 @@
                         </span>
                         Skills and projects
                     </h2>
-                    <h3 data-aos="fade-left" data-aos-anchor-placement="top-bottom">Python / Blender Game Engine</h3>
-                    <p data-aos="fade-left" data-aos-anchor-placement="top-bottom">Started coding in Python at the age of 13 from Codecademy, and used this language to code a First Person Shooter (and other game prototypes) in the Blender 3D game engine an year later. I have also used Python for solving many math problems and automating tasks.</p>
                     <h3 data-aos="fade-left" data-aos-anchor-placement="top-bottom">Java / Android</h3>
                     <p data-aos="fade-left" data-aos-anchor-placement="top-bottom">I learned Java almost three years ago, and it is now my go-to language to test code. I started my first big Java project in 2014, TwentyFour, an Android math game about operating with the numbers on the screen to get to 24. ic_launcherThe game is now published on Google Play Store. I also interned last spring for 4 months as an Android developer at Scanntech, a company that provides retail stores with Point of Sale solutions with the same capabilities as the big chains’ software. During my internship, I had the opportunity to work on a big project with other experienced developers.</p>
+                    <h3 data-aos="fade-left" data-aos-anchor-placement="top-bottom">Python / Blender Game Engine</h3>
+                    <p data-aos="fade-left" data-aos-anchor-placement="top-bottom">Started coding in Python at the age of 13 from Codecademy, and used this language to code a First Person Shooter (and other game prototypes) in the Blender 3D game engine an year later. I have also used Python for solving many math problems and automating tasks.</p>
                     <h3 data-aos="fade-left" data-aos-anchor-placement="top-bottom">C# / Unity3D</h3>
                     <p data-aos="fade-left" data-aos-anchor-placement="top-bottom">I have done two projects with Unity. The first one was a Bumper Cars AI that eventually evolved to be a game prototype. The cars only have the positions of the other cars related to their local axis and some raycast sensors in order to find out the best behavior (crash forward, turn around, avoid crash, get more distance, orientate). The second project is Robot Test, a puzzle game for touch screen devices with a 7×10 board and robots that interact with the blocks placed on the grid, in order to get to the target positions. The game has more than 20 blocks with unique behaviors and 60+ levels, but is still in Alpha version.</p>
                     <h3 data-aos="fade-left" data-aos-anchor-placement="top-bottom">Lua / Corona SDK</h3>
@@ -117,7 +155,14 @@
                     <p data-aos="fade-left" data-aos-anchor-placement="top-bottom">During my internship at Scanntech, I worked with SQLite3 to manage all sorts of databases. The main program was an Android application written in Java and XML, and the development was done in a Linux machine with IntelliJ IDEA and Maven compiler. The ADB was used to debug the application on the rooted devices. Version management was done using Git, and all the tasks were managed through JIRA (Atlassian’s issue tracker).
                     Besides, I have some basic Web Dev skills with HTML (did this website from scratch), and am learning C++ at the moment.</p>
                     <h3 data-aos="fade-left" data-aos-anchor-placement="top-bottom">3D modelling / texturing / animating</h3>
-                    <p data-aos="fade-left" data-aos-anchor-placement="top-bottom">Through Blender 3D i have acquired these skills as a way to improve school projects by adding short videos. When I realised I wanted to make 3D games, I started making the assets in Blender and following tutorials that I found online in order to improve the graphics of my projects. For my last project Robot Test, all the assets were created by myself using 3D sofware, and the same happened with the Bumper Cars AI assets. Some of my renders can be found <a href="https://goo.gl/photos/PKjNCEcQancgxdr6A">here</a>.</p>
+                    <p data-aos="fade-left" data-aos-anchor-placement="top-bottom">Through Blender 3D I have acquired these skills as a way to improve school projects by adding short videos. When I realised I wanted to make 3D games, I started making the assets in Blender and following tutorials that I found online in order to improve the graphics of my projects. For my last project Robot Test, all the assets were created by myself using 3D sofware, and the same happened with the Bumper Cars AI assets. Some of my renders can be found <a href="https://goo.gl/photos/PKjNCEcQancgxdr6A" class="btn btn-primary btn-sm">here</a>.</p>
+                    <h3 data-aos="fade-left" data-aos-anchor-placement="top-bottom">2D vector drawing</h3>
+                    <p data-aos="fade-left" data-aos-anchor-placement="top-bottom">To make the assets for my 2D games I have learned how to use Inkscape to create 2D UI elements and other components. You Will Crash has assets made in Inkscape, as well as TwentyFour and this website.</p>
+                    <h2 data-aos="fade-left" data-aos-anchor-placement="top-bottom">Goals</h2>
+                    <p data-aos="fade-left" data-aos-anchor-placement="top-bottom">• Experiment with machine learning and neural networks through simple projects (for now).</p>
+                    <p data-aos="fade-left" data-aos-anchor-placement="top-bottom">• Learn Web Dev (HTML, CSS and JavaScript) to make hybrid mobile apps and web pages.</p>
+                    <p data-aos="fade-left" data-aos-anchor-placement="top-bottom">• Expand my programming experience by using new tools and languages.</p>
+                    <p data-aos="fade-left" data-aos-anchor-placement="top-bottom">• Work with robots / interactive devices. Could be related to internet of things or artificial intelligence.</p>
                 </div>
             </div>
             <div class="jumbotron jumbotron-resume" id="resume">
